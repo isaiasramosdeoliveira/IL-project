@@ -1,0 +1,3 @@
+ - grid no container.
+ - grid nos elementos filhos.
+ - análise de templates com grid.
