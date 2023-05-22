@@ -15,12 +15,15 @@ body{
     border-radius: 10px;
     background-color: black;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* o uso da função repeat aqui é para ecomonizar tempo (emoji de fantasminha) */
+    grid-template-rows: repeat(3, 1fr);
 }
 .box{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgb(245, 11, 11);
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
